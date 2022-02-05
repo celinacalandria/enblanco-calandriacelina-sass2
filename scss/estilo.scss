@@ -1,0 +1,113 @@
+@import "variables";
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: $color-principal;
+    font-family: $letra;
+    color: $color-1;
+}
+
+/* header */
+.header__principal{
+    background-image: url("/img/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    margin: 0.5rem;
+    nav{
+        padding: 1rem;
+        margin: auto;
+        list-style-type: none;
+        text-align: center;
+    }
+    li{
+        display: inline-block;
+        margin: auto;
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 3rem;
+            margin-left: 1rem;
+            font-size: $tam-letra;
+            color: $color-1;
+            &:hover{
+                color: $color-2;
+            }
+            }
+    }
+    h1{
+        color: $color-2;
+        font-size: $tam-letra +3;
+        padding: 1rem;
+        letter-spacing: 1rem;
+        text-align: center;
+        margin: auto;
+    }
+}
+.header__frase{
+    color: $color-2;
+    text-align: right;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+/* main */
+.main__imagenes{
+    display: flex;
+    flex-direction: row;
+    img{
+        width: 33.335%;
+        height: auto;
+        &:hover{
+            transform: scale(1.2);
+            transition: 0.5s;
+        }
+    }
+}
+
+/* section */
+.sectionDesktop{
+    padding: 1rem;
+    &:hover{
+        transition: 0.5s;
+        transform: scale(1,1.5);
+        color: $color-2;
+    }
+    h3{
+        text-align: center;
+        font-size: $tam-letra +2;
+        letter-spacing: 0.5rem;
+    }
+}
+
+/* footer */
+.footer{
+    img{
+        width: 100%;
+        height: auto;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 1rem;
+        list-style-type: none;
+    }
+    a{
+        padding: 0.5rem;
+        text-decoration: none;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        color: $color-1;
+        &:hover{
+            color: $color-2;
+        }
+    }
+    p{
+        text-align: center;
+        margin: 1rem;
+        padding: 0.8rem;
+        font-size: $tam-letra -0.2;
+    }
+}
