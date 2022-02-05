@@ -5,7 +5,7 @@
 }
 
 .eventos {
-  color: rosybrown;
+  color: #e7a9a9;
 }
 
 .quienessomos {
@@ -27,11 +27,20 @@
   margin-left: 4rem;
   margin-right: 4rem;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .estiloSegundo {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: lighter;
+}
+
+/* mix in */
+.parrafosMixin {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 
 body {
@@ -118,6 +127,7 @@ body {
 /* section */
 .sectionExtend {
   padding: 2rem;
+  padding-bottom: 1rem;
 }
 
 .iag {
@@ -129,8 +139,10 @@ body {
   font-size: 1.8rem;
 }
 
-.sectionDesktop {
-  padding: 0.5rem;
+.sectionMixin {
+  padding: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .sectionDesktop:hover {

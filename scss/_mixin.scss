@@ -1,0 +1,11 @@
+/* mix in */
+@mixin parrafos {
+    font-size: $tam-letra +0.2;    
+    text-align: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.parrafosMixin {
+    @include parrafos;
+}

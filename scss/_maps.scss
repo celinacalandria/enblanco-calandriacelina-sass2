@@ -1,5 +1,5 @@
 /* mapas */
-$mapLinks:(tienda: lightsalmon, eventos: rosybrown, quienessomos: darksalmon, contacto: lightcoral); 
+$mapLinks:(tienda: lightsalmon, eventos: rgb(231, 169, 169), quienessomos: darksalmon, contacto: lightcoral); 
 
 @each $ligthsalmon, $color in $mapLinks {
     .#{$ligthsalmon} {

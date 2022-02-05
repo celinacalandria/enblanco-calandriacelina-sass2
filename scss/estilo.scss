@@ -1,6 +1,7 @@
 @import "variables";
 @import "maps";
 @import "extend"; 
+@import "mixin";
 
 body{
     margin: 0px;
@@ -71,6 +72,7 @@ body{
 /* section */
 .sectionExtend{
     padding: 2rem;
+    padding-bottom: 1rem;
 }
 .iag{
     text-decoration: none;
@@ -80,8 +82,13 @@ body{
     font-size: $tam-letra +0.8;
 }
 
+.sectionMixin{
+    padding: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 .sectionDesktop{
-    padding: 0.5rem;
     &:hover{
         transition: 0.5s;
         transform: scale(1,1.5);

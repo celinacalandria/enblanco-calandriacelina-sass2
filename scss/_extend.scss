@@ -3,9 +3,10 @@
     margin-left: 4rem;
     margin-right: 4rem;
     text-align: center;
-    font-size: $tam-letra +0.1;
+    font-size: $tam-letra +0.2;
 }
 .estiloSegundo{
     @extend .estiloPrimero;
-    font-size: $tam-letra +0.5;
+    font-size: $tam-letra +0.6;
+    font-weight: lighter;
 }
