@@ -1,4 +1,26 @@
 /* variables */
+/* mapas */
+.tienda {
+  color: lightsalmon;
+}
+
+.eventos {
+  color: rosybrown;
+}
+
+.quienessomos {
+  color: darksalmon;
+}
+
+.contacto {
+  color: lightcoral;
+}
+
+.mapget {
+  background-color: #007A70;
+  font-size: 2rem;
+}
+
 body {
   margin: 0px;
   padding: 0px;
@@ -9,7 +31,7 @@ body {
 
 /* header */
 .header__principal {
-  background-image: url("/img/logo.png");
+  background-image: url("/img/logo2.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left;
@@ -34,7 +56,6 @@ body {
   padding: 3rem;
   margin-left: 1rem;
   font-size: 1rem;
-  color: #F3DFC1;
 }
 
 .header__principal li a:hover {
@@ -43,7 +64,9 @@ body {
 
 .header__principal h1 {
   color: white;
-  font-size: 4rem;
+  font-family: 'Zeyada', cursive;
+  font-weight: lighter;
+  font-size: 5rem;
   padding: 1rem;
   letter-spacing: 1rem;
   text-align: center;
@@ -51,7 +74,6 @@ body {
 }
 
 .header__frase {
-  color: white;
   text-align: right;
   padding-right: 1.5rem;
   padding-bottom: 1.5rem;

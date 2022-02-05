@@ -1,4 +1,5 @@
 @import "variables";
+@import "maps";
 
 body{
     margin: 0px;
@@ -10,7 +11,7 @@ body{
 
 /* header */
 .header__principal{
-    background-image: url("/img/logo.png");
+    background-image: url("/img/logo2.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;
@@ -30,7 +31,6 @@ body{
             padding: 3rem;
             margin-left: 1rem;
             font-size: $tam-letra;
-            color: $color-1;
             &:hover{
                 color: $color-2;
             }
@@ -38,7 +38,9 @@ body{
     }
     h1{
         color: $color-2;
-        font-size: $tam-letra +3;
+        font-family: 'Zeyada', cursive;
+        font-weight: lighter;
+        font-size: $tam-letra +4;
         padding: 1rem;
         letter-spacing: 1rem;
         text-align: center;
@@ -46,7 +48,6 @@ body{
     }
 }
 .header__frase{
-    color: $color-2;
     text-align: right;
     padding-right: 1.5rem;
     padding-bottom: 1.5rem;
@@ -101,7 +102,7 @@ body{
         margin-right: 1rem;
         color: $color-1;
         &:hover{
-            color: $color-2;
+            color: white;
         }
     }
     p{
