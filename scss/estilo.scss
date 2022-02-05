@@ -1,5 +1,6 @@
 @import "variables";
 @import "maps";
+@import "extend"; 
 
 body{
     margin: 0px;
@@ -68,8 +69,19 @@ body{
 }
 
 /* section */
+.sectionExtend{
+    padding: 2rem;
+}
+.iag{
+    text-decoration: none;
+    color: $color-2;
+}
+.enblanco{
+    font-size: $tam-letra +0.8;
+}
+
 .sectionDesktop{
-    padding: 1rem;
+    padding: 0.5rem;
     &:hover{
         transition: 0.5s;
         transform: scale(1,1.5);

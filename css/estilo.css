@@ -16,9 +16,22 @@
   color: lightcoral;
 }
 
+/* mapget */
 .mapget {
   background-color: #007A70;
   font-size: 2rem;
+}
+
+/* extend */
+.estiloPrimero, .estiloSegundo {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.estiloSegundo {
+  font-size: 1.5rem;
 }
 
 body {
@@ -103,8 +116,21 @@ body {
 }
 
 /* section */
+.sectionExtend {
+  padding: 2rem;
+}
+
+.iag {
+  text-decoration: none;
+  color: white;
+}
+
+.enblanco {
+  font-size: 1.8rem;
+}
+
 .sectionDesktop {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .sectionDesktop:hover {

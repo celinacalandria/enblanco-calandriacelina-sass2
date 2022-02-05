@@ -7,11 +7,11 @@ $mapLinks:(tienda: lightsalmon, eventos: rosybrown, quienessomos: darksalmon, co
     }
 }
 
+/* mapget */
 $estilo: (
     color: #007A70,
     tamFuente: 2rem,
 );
-
 .mapget {
     background-color: map-get($estilo, color);
     font-size: map-get($estilo, tamFuente);

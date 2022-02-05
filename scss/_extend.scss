@@ -1,0 +1,11 @@
+/* extend */
+.estiloPrimero{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    text-align: center;
+    font-size: $tam-letra +0.1;
+}
+.estiloSegundo{
+    @extend .estiloPrimero;
+    font-size: $tam-letra +0.5;
+}
